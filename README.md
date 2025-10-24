@@ -53,3 +53,27 @@ yarn build
 # bun
 bun run build
 ```
+
+<br>
+
+<div align="center">
+  <img src="screenshots/home-profile.jpg" alt="Screenshot 1" style="max-width:100%; height:auto; border:1px solid #ddd; border-radius:8px;">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="screenshots/application.jpg" alt="Screenshot 1" style="max-width:100%; height:auto; border:1px solid #ddd; border-radius:8px;">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="screenshots/req-notif.jpg" alt="Screenshot 1" style="max-width:100%; height:auto; border:1px solid #ddd; border-radius:8px;">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="screenshots/req-notif-mobile.jpg" alt="Screenshot 1" style="max-width:100%; height:auto; border:1px solid #ddd; border-radius:8px;">
+</div>

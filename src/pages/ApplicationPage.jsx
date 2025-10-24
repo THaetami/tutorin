@@ -19,8 +19,8 @@ const ApplicationPage = () => {
         <title>Applications | {name}</title>
         <meta name="description" content="Applications page" />
       </Helmet>
-      <div className="ml-16 lg:ml-[210px] mb-5 xl:px-3 ">
-        <div className=" h-full mx-auto px-0  flex flex-col">
+      <div className="ml-16 lg:ml-[210px] mb-5 2xl:px-3 h-full xl:h-screen 2xl:border-r-2">
+        <div className=" overflow-auto mx-auto px-3  flex flex-col ">
           <h1 className="p-4 bg-white text-2xl font-bold">Application</h1>
           <div className="flex flex-grow overflow-hidden ">
             <div className="flex flex-col gap-4 p-2 w-full font-normal">

@@ -51,7 +51,10 @@ const BodyJobDetail = ({ job, loading }) => {
         <div className="py-8 border-t border-tertiary-color md:flex md:justify-center">
           <div className="md:w-full md:pr-4 p-space">
             <h2 className="text-title font-semibold mb-2">Job Description :</h2>
-            <div className="mb-4 show-bullets">{job.description}</div>
+            <div
+              className="mb-4"
+              dangerouslySetInnerHTML={{ __html: job.description.replace(/\n/g, '<br/>') }}
+            />
             <div className="md:flex mt-8">
               <div className="md:mr-4">
                 <div className="mb-4">

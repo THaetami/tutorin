@@ -108,7 +108,7 @@ const ProfilePage = () => {
               />
               <FormUploadResume />
             </div>
-            <div className="md:col-span-2 px-2 md:px-0 mt-4">
+            <div className="md:col-span-2 px-2 md:px-0 mt-4 2xl:border-r-2 2xl:pr-6">
               <TabProfile setActiveTab={setActiveTab} activeTab={activeTab} />
               <div className="tabs">
                 {tabs.map((tab) => (
